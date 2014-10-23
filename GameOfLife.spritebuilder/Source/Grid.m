@@ -41,30 +41,30 @@ static const int GRID_COLUMNS = 10;
 
   // initialize the array as a blank NSMutableArray
   _gridArray = [NSMutableArray array];
-/*
+
   // initialize Creatures
   for (int i = 0; i < GRID_ROWS; i++) {
     // this is how you create two dimensional arrays in Objective-C. You put arrays into arrays.
-    _gridArray[i] = [NSMutableArray array];
+  //  _gridArray[i] = [NSMutableArray array];
     x = 0;
 
     for (int j = 0; j < GRID_COLUMNS; j++) {
-      Creature *creature = [[Creature alloc] initCreature];
-      creature.anchorPoint = ccp(0, 0);
-      creature.position = ccp(x, y);
-      [self addChild:creature];
+//      Creature *creature = [[Creature alloc] initCreature];
+//      creature.anchorPoint = ccp(0, 0);
+//      creature.position = ccp(x, y);
+//      [self addChild:creature];
 
       // this is shorthand to access an array inside an array
-      _gridArray[i][j] = creature;
+//      _gridArray[i][j] = creature;
 
       // make creatures visible to test this method, remove this once we know we have filled the grid properly
-      creature.isAlive = YES;
+//      creature.isAlive = YES;
 
-      x+=_cellWidth;
+//      x+=_cellWidth;
     }
 
-    y += _cellHeight;
-  }*/
+//    y += _cellHeight;
+  }
 }
 
 @end
