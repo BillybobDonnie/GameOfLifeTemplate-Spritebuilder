@@ -35,10 +35,10 @@ static const int GRID_COLUMNS = 10;
   // divide the grid's size by the number of columns/rows to figure out the right width and height of each cell
   _cellWidth = self.contentSize.width / GRID_COLUMNS;
   _cellHeight = self.contentSize.height / GRID_ROWS;
-/*
+
   float x = 0;
   float y = 0;
-
+/*
   // initialize the array as a blank NSMutableArray
   _gridArray = [NSMutableArray array];
 
