@@ -49,7 +49,7 @@ static const int GRID_COLUMNS = 10;
     x = 0;
 
     for (int j = 0; j < GRID_COLUMNS; j++) {
-      Creature *creature = [[Creature alloc] initCreature];
+//      Creature *creature = [[Creature alloc] initCreature];
 //      creature.anchorPoint = ccp(0, 0);
 //      creature.position = ccp(x, y);
 //      [self addChild:creature];
