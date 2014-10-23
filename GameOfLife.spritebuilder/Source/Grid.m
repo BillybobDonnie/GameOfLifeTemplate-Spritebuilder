@@ -21,13 +21,14 @@ static const int GRID_COLUMNS = 10;
 
 - (void)onEnter
 {
-  [super onEnter];
+ /* [super onEnter];
 
   [self setupGrid];
 
   // accept touches on the grid
   self.userInteractionEnabled = YES;
-}
+*/
+  }
 
 - (void)setupGrid
 {
